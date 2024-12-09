@@ -1,0 +1,26 @@
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.item-list li {
+    background-color: #111;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    padding: 10px 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    position: relative;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.item-list li:hover {
+    transform: scale(1.05);
+}
+
+p {
+    color: #fff;
+}

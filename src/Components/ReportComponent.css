@@ -1,0 +1,35 @@
+.report-balance {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.report-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 20px;
+    border-left: 3px solid rgb(0, 255, 0);
+    border-right: 3px solid red;
+}
+
+.report-container div {
+    flex: 1;
+    text-align: center;
+}
+
+.report-income {
+    border-right: 1px solid #6f6f6f;
+    border-bottom: 2px solid rgb(0, 255, 0);
+}
+.report-expense {
+    border-left: 1px solid #6f6f6f;
+    border-bottom: 2px solid red;
+}
+
+p {
+    font-size: 22px;
+    margin: 5px 0;
+}
