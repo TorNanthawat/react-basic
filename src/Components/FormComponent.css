@@ -7,6 +7,7 @@ label {
 input {
     display: block;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
     padding: 10px;
     width: 100%;
     height: auto;
@@ -23,6 +24,7 @@ input:focus {
     margin: 20px 0;
     padding: 8px;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
     width: 100%;
     height: auto;
     font-size: 16px;

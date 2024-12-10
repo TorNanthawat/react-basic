@@ -11,8 +11,9 @@
     margin: 15px 0;
     padding: 15px;
     border-radius: 20px;
-    border-left: 3px solid rgb(0, 255, 0);
-    border-right: 3px solid red;
+    -webkit-border-radius: 20px;
+    border-left: 3px solid #00ff00;
+    border-right: 3px solid #ff0000;
 }
 
 .report-container div {
@@ -22,11 +23,11 @@
 
 .report-income {
     border-right: 1px solid #6f6f6f;
-    border-bottom: 2px solid rgb(0, 255, 0);
+    border-bottom: 2px solid #00ff00;
 }
 .report-expense {
     border-left: 1px solid #6f6f6f;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #ff0000;
 }
 
 p {
